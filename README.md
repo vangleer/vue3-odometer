@@ -14,7 +14,7 @@ npm install --save odometer vue3-odometer
 ``` vue
 <template>
   <Vue3Odometer class="o-text" :value="number" />
-  <el-button @click="update">update number</el-button>
+  <button @click="update">update number</button>
 </template>
 
 <script lang="ts" setup>
