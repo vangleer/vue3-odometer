@@ -1,0 +1,35 @@
+{
+  "name": "vue3-odometer",
+  "private": true,
+  "version": "0.1.0",
+  "files": ["dist"],
+  "main": "./dist/vue3-odometer.umd.js",
+  "module": "./dist/vue3-odometer.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-odometer.es.js",
+      "require": "./dist/vue3-odometer.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.2",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7",
+    "odometer": "^0.4.8",
+    "vue": "^3.2.25"
+  },
+  "peerDependencies": {
+    "vue": ">=3.2.0",
+    "odometer": "latest"
+  }
+}
