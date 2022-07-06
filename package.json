@@ -1,7 +1,20 @@
 {
   "name": "vue3-odometer",
-  "private": true,
   "version": "0.1.0",
+  "description": "Vue.js(v3.2+) component wrap for Odometer.js",
+  "keywords": [
+    "odometer",
+    "odometer.js",
+    "library",
+    "vue",
+    "vue-odometer"
+  ],
+  "homepage": "https://github.com/java0088/vue3-odometer",
+  "bugs": {
+    "url": "https://github.com/java0088/vue3-odometer/issues"
+  },
+  "license": "MIT",
+  "author": "huangwantong <965002107@qq.com>",
   "files": [
     "dist"
   ],
@@ -12,6 +25,10 @@
       "import": "./dist/vue3-odometer.es.js",
       "require": "./dist/vue3-odometer.umd.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/java0088/vue3-odometer.git"
   },
   "scripts": {
     "dev": "vite",
