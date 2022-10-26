@@ -39,7 +39,7 @@ function update() {
 
 * `value` **[Number]**
 
-  Optional; `0` by defualt.
+  Optional; `0` by default.
 
 * `format` **[String]**
 
@@ -47,7 +47,7 @@ function update() {
 
 * `theme` **[String]**
 
-  Optional; `default` by defualt.
+  Optional; `default` by default.
 
 * `duration` **[Number]**
 
